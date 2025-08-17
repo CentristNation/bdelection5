@@ -964,7 +964,7 @@
                 'BNP': data.bnpVotes || 0,
                 'Jamaat': data.jamaatVotes || 0,
                 'NCP': data.ncpVotes || 0,
-                'Islamic': data.islamicVotes || 0,
+                'Islamic Party': data.islamicVotes || 0,
                 'Jatio Party': data.jatioVotes || 0
             };
             
@@ -1046,7 +1046,7 @@
             data.bnpVotes = selectedParty === 'BNP' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
             data.jamaatVotes = selectedParty === 'Jamaat' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
             data.ncpVotes = selectedParty === 'NCP' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
-            data.islamicVotes = selectedParty === 'Islamic' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
+            data.islamicVotes = selectedParty === 'Islamic Party' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
             data.jatioVotes = selectedParty === 'Jatio Party' ? Math.round(totalVoters * 0.4) : Math.round(totalVoters * 0.15);
             
             // Update map colors
